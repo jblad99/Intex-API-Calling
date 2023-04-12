@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d3lRw5wlakFGACDo2XuRyL9VhL84LNMep7z09QFLfmQ=",
+  "Hash": "v6vLufQKzcpsd2cpX0AQTqj7IqAbqly3580/yeF888o=",
   "Source": "INTEX API Calling",
   "BasePath": "_content/INTEX API Calling",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/joshblad/Projects/INTEX API Calling/obj/Debug/net6.0/scopedcss/projectbundle/INTEX API Calling.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/joshblad/Projects/INTEX API Calling/wwwroot/.DS_Store",
+      "SourceId": "INTEX API Calling",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/joshblad/Projects/INTEX API Calling/wwwroot/",
+      "BasePath": "_content/INTEX API Calling",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
       "Identity": "/Users/joshblad/Projects/INTEX API Calling/wwwroot/css/site.css",

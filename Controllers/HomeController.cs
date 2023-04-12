@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
 using System.Reflection.Metadata;
 using System.Xml.Linq;
 using System.IO;
+using System.Threading;
 
 namespace INTEX_API_Calling.Controllers;
 
@@ -83,28 +84,43 @@ public class HomeController : Controller
         // Set the content type and the input data in the request body
         StringContent content = new StringContent(inputDataJson, System.Text.Encoding.UTF8, "application/json");
 
-        // Send the POST request to the API endpoint and wait for the response
-        HttpResponseMessage response = await _httpClient.PostAsync(apiUrl, content);
-        string responseContent = await response.Content.ReadAsStringAsync();
+        Task<HttpResponseMessage> task = _httpClient.PostAsync(apiUrl, content);
+        Task completedTask = await Task.WhenAny(task, Task.Delay(TimeSpan.FromSeconds(5)));
 
-        // Check if the request was successful (status code 200)
-        if (response.IsSuccessStatusCode)
+        if (completedTask == task)
         {
-            // Deserialize the JSON response into a result object
-            ModelResult ResultFromApi = JsonConvert.DeserializeObject<ModelResult>(responseContent);
 
-            // Pass the prediction result to the view and render it
+            // Send the POST request to the API endpoint and wait for the response
+            HttpResponseMessage response = await _httpClient.PostAsync(apiUrl, content);
+            string responseContent = await response.Content.ReadAsStringAsync();
 
-            //TempData["Result"] = Result;
+            // Check if the request was successful (status code 200)
+            if (response.IsSuccessStatusCode)
+            {
+                // Deserialize the JSON response into a result object
+                ModelResult ResultFromApi = JsonConvert.DeserializeObject<ModelResult>(responseContent);
 
-            return RedirectToAction("MyResult", ResultFromApi);
+                // Pass the prediction result to the view and render it
 
+                //TempData["Result"] = Result;
+
+                return RedirectToAction("MyResult", ResultFromApi);
+
+            }
+            else
+            {
+                // Pass the error message to the view and render it
+                string ErrorMessage = $"Prediction API error ({response.StatusCode}): {responseContent}";
+                return View("MyResult", ErrorMessage);
+            }
         }
         else
         {
-            // Pass the error message to the view and render it
-            string errorMessage = $"Prediction API error ({response.StatusCode}): {responseContent}";
-            return View("PredictionError", errorMessage);
+            // The API call took more than 5 seconds
+            //ErrorViewModel errorMessage = new ErrorViewModel { ErrorMessage = "An error occurred while making a mummy head direction prediction." };
+            //return RedirectToAction("Error", errorMessage);
+            return RedirectToAction("Index");
+
         }
     }
 
@@ -133,10 +149,16 @@ public class HomeController : Controller
     }
 
     [HttpGet]
+    public IActionResult Error(ErrorViewModel errorMessage)
+    {
+        return View(errorMessage);
+    }
+
+    [HttpGet]
     public IActionResult Graph()
     {
-        //string graphJson = System.IO.File.ReadAllText("3Dgraph.json");
-        //ViewBag["graphJson"] = graphJson;
+        string graphJson = System.IO.File.ReadAllText("3Dgraph.json");
+        ViewBag.graphJson = graphJson;
         return View();
     }
 }

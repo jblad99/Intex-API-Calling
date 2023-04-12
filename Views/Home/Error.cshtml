@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "You've Encountered An Error";
+}
+
+@model ErrorViewModel
+
+<h1>@ViewData["Title"]</h1>
+
+
+<div id="errorMessage">
+    <p>@Model.ErrorMessage</p>
+</div>
+
+<script>window.onload = function () {
+        var errorMessage = document.getElementById('errorMessage');
+        if (errorMessage != null) {
+            errorMessage.style.display = 'block';
+            // Add code here to display the message in a modal or popup window
+            alert(@Model.ErrorMessage);
+        }
+    }</script>

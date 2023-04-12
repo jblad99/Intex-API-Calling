@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/INTEX API Calling.bundle.scp.css"
     },
     {
+      "Id": "/Users/joshblad/Projects/INTEX API Calling/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
       "Id": "/Users/joshblad/Projects/INTEX API Calling/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
