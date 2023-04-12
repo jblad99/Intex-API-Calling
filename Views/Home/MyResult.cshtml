@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Prediction Result";
+}
+@model PredictionResult
+<!-- Use the result of the API call in your view -->
+<h1>@ViewData["Title"]</h1>
+
+
+<p>
+    Your mummy's head direction is predicted to be facing
+    <span>@Model.Result.ToString()</span>.
+</p>
+

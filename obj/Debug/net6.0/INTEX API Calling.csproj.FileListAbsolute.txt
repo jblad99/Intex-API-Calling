@@ -1,0 +1,36 @@
+/Users/joshblad/Projects/INTEX API Calling/bin/Debug/net6.0/appsettings.Development.json
+/Users/joshblad/Projects/INTEX API Calling/bin/Debug/net6.0/appsettings.json
+/Users/joshblad/Projects/INTEX API Calling/bin/Debug/net6.0/INTEX API Calling.staticwebassets.runtime.json
+/Users/joshblad/Projects/INTEX API Calling/bin/Debug/net6.0/INTEX API Calling
+/Users/joshblad/Projects/INTEX API Calling/bin/Debug/net6.0/INTEX API Calling.deps.json
+/Users/joshblad/Projects/INTEX API Calling/bin/Debug/net6.0/INTEX API Calling.runtimeconfig.json
+/Users/joshblad/Projects/INTEX API Calling/bin/Debug/net6.0/INTEX API Calling.dll
+/Users/joshblad/Projects/INTEX API Calling/bin/Debug/net6.0/INTEX API Calling.pdb
+/Users/joshblad/Projects/INTEX API Calling/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/joshblad/Projects/INTEX API Calling/obj/Debug/net6.0/INTEX API Calling.csproj.AssemblyReference.cache
+/Users/joshblad/Projects/INTEX API Calling/obj/Debug/net6.0/INTEX API Calling.GeneratedMSBuildEditorConfig.editorconfig
+/Users/joshblad/Projects/INTEX API Calling/obj/Debug/net6.0/INTEX API Calling.AssemblyInfoInputs.cache
+/Users/joshblad/Projects/INTEX API Calling/obj/Debug/net6.0/INTEX API Calling.AssemblyInfo.cs
+/Users/joshblad/Projects/INTEX API Calling/obj/Debug/net6.0/INTEX API Calling.csproj.CoreCompileInputs.cache
+/Users/joshblad/Projects/INTEX API Calling/obj/Debug/net6.0/INTEX API Calling.MvcApplicationPartsAssemblyInfo.cache
+/Users/joshblad/Projects/INTEX API Calling/obj/Debug/net6.0/INTEX API Calling.RazorAssemblyInfo.cache
+/Users/joshblad/Projects/INTEX API Calling/obj/Debug/net6.0/INTEX API Calling.RazorAssemblyInfo.cs
+/Users/joshblad/Projects/INTEX API Calling/obj/Debug/net6.0/staticwebassets/msbuild.INTEX API Calling.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/joshblad/Projects/INTEX API Calling/obj/Debug/net6.0/staticwebassets/msbuild.build.INTEX API Calling.props
+/Users/joshblad/Projects/INTEX API Calling/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.INTEX API Calling.props
+/Users/joshblad/Projects/INTEX API Calling/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.INTEX API Calling.props
+/Users/joshblad/Projects/INTEX API Calling/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/joshblad/Projects/INTEX API Calling/obj/Debug/net6.0/staticwebassets.build.json
+/Users/joshblad/Projects/INTEX API Calling/obj/Debug/net6.0/staticwebassets.development.json
+/Users/joshblad/Projects/INTEX API Calling/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/joshblad/Projects/INTEX API Calling/obj/Debug/net6.0/scopedcss/bundle/INTEX API Calling.styles.css
+/Users/joshblad/Projects/INTEX API Calling/obj/Debug/net6.0/scopedcss/projectbundle/INTEX API Calling.bundle.scp.css
+/Users/joshblad/Projects/INTEX API Calling/obj/Debug/net6.0/INTEX API Calling.csproj.CopyComplete
+/Users/joshblad/Projects/INTEX API Calling/obj/Debug/net6.0/INTEX API Calling.dll
+/Users/joshblad/Projects/INTEX API Calling/obj/Debug/net6.0/refint/INTEX API Calling.dll
+/Users/joshblad/Projects/INTEX API Calling/obj/Debug/net6.0/INTEX API Calling.pdb
+/Users/joshblad/Projects/INTEX API Calling/obj/Debug/net6.0/INTEX API Calling.genruntimeconfig.cache
+/Users/joshblad/Projects/INTEX API Calling/obj/Debug/net6.0/ref/INTEX API Calling.dll
+/Users/joshblad/Projects/INTEX API Calling/bin/Debug/net6.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/joshblad/Projects/INTEX API Calling/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/joshblad/Projects/INTEX API Calling/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
