@@ -1,8 +1,30 @@
 ﻿@{
-    ViewData["Title"] = "Predict The Head Direction of Your Mummy!";
+    ViewData["Title"] = "Mummy Head Direction Predictor";
 }
 
 <h1>@ViewData["Title"]</h1>
+
+<div>
+    <p>
+        The mummies discovered by the BYU Egypt Archeology team have their heads oriented either East or West, with different implications
+        based on ancient Egyptian history.
+    </p>
+    <p>
+        One explanation is that East-facing mummies were aligned towards the rising sun,
+        while West-facing mummies were associated with the realm of the dead. The sun's daily cycle of rising and setting was
+        considered a symbol of death and rebirth in Ancient Egyptian religion.
+    </p>
+    <p>
+        Another possibility is that some mummies facing East
+        may be of Christian or Muslim origin, aligned towards Mecca or Jerusalem.
+    </p>
+    <p>
+        Regardless of the reason, the orientation of the
+        mummies' heads provides valuable insight into the religious and cultural practices of ancient Egypt.
+    </p>
+</div>
+<br />
+<p>Predict the head direction of your mummy below!</p>
 
 <form method="post" id="MakePrediction">
     <label for="depth"> Depth:</label>
@@ -39,7 +61,7 @@
     <label for="wrapping"> Wrapping type:</label>
     <select name="wrapping" id="wrapping" class="form-control" required>
         <option value="">-- Select a wrapping type --</option>
-        <option value="bones">Bones</option>
+        <option value="bones">Bones Only (No wrapping)</option>
         <option value="half">Half</option>
         <option value="whole">Whole</option>
         <!-- add more options here as needed -->

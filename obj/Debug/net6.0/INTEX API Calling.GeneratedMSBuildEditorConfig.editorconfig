@@ -16,16 +16,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/joshblad/Projects/INTEX API Calling
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/joshblad/Projects/INTEX API Calling/Views/Home/Graph.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9HcmFwaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/joshblad/Projects/INTEX API Calling/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/joshblad/Projects/INTEX API Calling/Views/Home/MyResult.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9NeVJlc3VsdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/joshblad/Projects/INTEX API Calling/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/joshblad/Projects/INTEX API Calling/Views/Shared/Error.cshtml]
